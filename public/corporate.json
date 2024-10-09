@@ -1,0 +1,276 @@
+[
+      {
+        "id": 1,
+        "name": "Executive Conferences",
+        "image": "conference.jpg",
+        "price": 12000,
+        "short_description": "High-end corporate conferences for top executives.",
+        "button_text": "Learn More",
+        "route": "/services/conferences",
+        "details": {
+          "description": "Our Executive Conferences are designed to bring together the top-tier of corporate leadership for a deep dive into industry trends, innovative strategies, and the future of global markets. These events are carefully curated to provide executives with not just insights, but actionable strategies that they can bring back to their organizations. Each session features high-profile keynote speakers who are pioneers in their respective industries, alongside thought-provoking panel discussions that challenge conventional thinking. Whether the focus is on digital transformation, financial innovations, or leadership in an increasingly globalized world, our conferences aim to provide unparalleled value through networking, collaboration, and thought leadership. The agenda is meticulously planned to ensure every participant leaves with a wealth of knowledge and new business connections.",
+          "duration": "2 Days",
+          "location": "Hilton Grand Ballroom",
+          "capacity": 300,
+          "agenda": [
+            "Keynote Sessions led by global business leaders",
+            "Interactive Panel Discussions on emerging trends",
+            "Breakout Workshops for specialized deep-dives",
+            "Networking Dinner with top-tier executives"
+          ],
+          "includes": [
+            "Gourmet Catering Services throughout the event",
+            "Comprehensive Media Coverage by leading outlets",
+            "Personalized Name Tags for all attendees",
+            "Exclusive Welcome Kits with branded merchandise"
+          ],
+          "event_pictures": [
+            "https://i.postimg.cc/MKxz7M3G/product-school-cd7i9v-YIye-Y-unsplash.jpg",
+            "https://i.postimg.cc/g0fWnn6m/md-duran-r-E9vg-D-TXg-M-unsplash.jpg",
+            "https://i.postimg.cc/4yGRQq50/pexels-israwmx-24023624.jpg"
+          ],
+          "special_guests": [
+            {
+              "name": "Dr. Jane Doe",
+              "title": "CEO, Global Innovations",
+              "picture": "https://i.postimg.cc/MZP9DyXZ/pexels-alexander-mass-748453803-21768675.jpg",
+              "bio": "Dr. Jane Doe is a leading authority in corporate innovation, with over 20 years of experience in scaling global businesses. She has transformed companies across industries by introducing cutting-edge AI technologies and fostering a culture of innovation. She will share insights on future trends in corporate leadership and technology integration."
+            },
+            {
+              "name": "John Smith",
+              "title": "CTO, TechWorld",
+              "picture": "https://i.postimg.cc/J0XCNmZZ/pexels-ahmadarikurniawan-9425183.jpg",
+              "bio": "With over 15 years of experience as a technology officer, John Smith has been instrumental in the digital transformation of many Fortune 500 companies. His work focuses on emerging technologies, cybersecurity, and the future of cloud computing. Attendees will benefit from his extensive knowledge in crafting robust tech infrastructures for corporations."
+            },
+            {
+              "name": "Sarah Thompson",
+              "title": "Head of Strategy, InnovateCorp",
+              "picture": "https://i.postimg.cc/MG57GSQZ/pexels-amin-mlk-152148114-26108564.jpg",
+              "bio": "Sarah Thompson is an acclaimed strategist who has worked with multinational firms to drive business growth through innovative strategic frameworks. She is known for her expertise in mergers and acquisitions, as well as sustainable business practices. She will discuss strategies for long-term growth in a rapidly changing market."
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Trade Shows and Expos",
+        "image": "expo.jpg",
+        "price": 15000,
+        "short_description": "Large-scale trade shows and expos for product showcasing.",
+        "button_text": "Learn More",
+        "route": "/services/tradeshows",
+        "details": {
+          "description": "Our Trade Shows and Expos are the perfect platform for businesses to showcase their products and services to a large, engaged audience. These events attract hundreds of exhibitors and thousands of attendees, providing unmatched opportunities for networking, lead generation, and customer engagement. Whether you're a startup looking to gain exposure or a seasoned business seeking new partnerships, our expos deliver results. We provide all exhibitors with a fully customizable booth space, complete with AV equipment and branding materials. In addition to a bustling exhibition floor, attendees can enjoy product demos, keynote speeches from industry leaders, and interactive workshops designed to inspire and educate. Our Trade Shows have a proven track record of helping businesses grow by offering direct access to potential clients and industry peers.",
+          "duration": "3 Days",
+          "location": "Exhibition Center, Downtown",
+          "capacity": 1000,
+          "booth_details": [
+            {
+              "size": "10x10 ft",
+              "price": 5000,
+              "extras": [
+                "Electricity Supply",
+                "Wi-Fi Access",
+                "Branding Material"
+              ]
+            },
+            {
+              "size": "15x15 ft",
+              "price": 8000,
+              "extras": [
+                "Enhanced Display Area",
+                "AV Equipment",
+                "Lead Retrieval System"
+              ]
+            }
+          ],
+          "includes": [
+            "Pre-Event Marketing to targeted audiences",
+            "On-Site Staff Support for exhibitors",
+            "Post-Event Attendee List for follow-up"
+          ],
+          "event_pictures": [
+            "https://i.postimg.cc/nztPy7Dj/pexels-cherubs-22669860.jpg",
+            "https://i.postimg.cc/kG2KwYgx/pexels-bertellifotografia-19012048.jpg",
+            "https://i.postimg.cc/8CV8Sq8z/pexels-icsa-833425-1708909.jpg"
+          ],
+          "special_guests": [
+            {
+              "name": "Susan Lee",
+              "title": "Founder, MarketLeaders",
+              "picture": "https://i.postimg.cc/2jM4yTVW/pexels-claudia-uriarte-laya-1803030614-28350526.jpg",
+              "bio": "Susan Lee is a marketing pioneer known for her success in elevating trade shows as a crucial business tool. With a career spanning 25 years, she has helped thousands of companies optimize their trade show strategies, leading to increased sales and brand recognition. Her session will cover innovative ways to captivate an expo audience and convert leads into clients."
+            },
+            {
+              "name": "David Rodriguez",
+              "title": "Head of Sales, TechExpos",
+              "picture": "https://i.postimg.cc/0NNgt778/pexels-creationhill-1681010.jpg",
+              "bio": "David Rodriguez has revolutionized the way technology is presented at expos, designing engaging, interactive booths that captivate audiences. His work focuses on driving sales through experiential marketing. He will share case studies of successful trade show campaigns and provide tips on maximizing booth impact."
+            },
+            {
+              "name": "Linda Nguyen",
+              "title": "CEO, ExpoSuccess",
+              "picture": "https://i.postimg.cc/PJpYKvFN/pexels-byb-byb-412101727-28818926.jpg",
+              "bio": "Linda Nguyen has overseen hundreds of trade shows and has a deep understanding of what makes expos successful. From logistical planning to booth design, her expertise helps exhibitors create memorable experiences. She will provide guidance on post-event follow-up techniques that can help exhibitors maximize their ROI."
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Team Building Workshops",
+        "image": "teambuilding.jpg",
+        "price": 8000,
+        "short_description": "Interactive workshops designed to enhance teamwork.",
+        "button_text": "Learn More",
+        "route": "/services/teambuilding",
+        "details": {
+          "description": "Our Team Building Workshops are designed to foster collaboration, trust, and effective communication among team members. These workshops combine fun, engaging activities with practical lessons that can be applied directly to the workplace. From problem-solving challenges to outdoor adventure courses, each activity is crafted to strengthen relationships and encourage creative thinking. These workshops are ideal for teams looking to improve their communication, resolve conflicts, and boost overall morale. After the activities, a debriefing session is held where teams can reflect on their performance and discuss how the skills they’ve learned can be applied to real-world scenarios. The event is facilitated by experienced professionals who specialize in leadership development and organizational psychology.",
+          "duration": "1 Day",
+          "location": "Outdoor or Indoor Facilities Available",
+          "capacity": 50,
+          "activities": [
+            "Problem-Solving Challenges",
+            "Outdoor Adventure Courses",
+            "Collaboration Games",
+            "Post-Workshop Analysis"
+          ],
+          "includes": [
+            "Expert Facilitators to guide each activity",
+            "All Required Equipment provided",
+            "Lunch & Refreshments throughout the day",
+            "Post-Workshop Feedback Report to assess team performance"
+          ],
+          "event_pictures": [
+            "https://i.postimg.cc/TYF1rYbN/pexels-rdne-9034755.jpg",
+            "https://i.postimg.cc/zBzGJLmv/pexels-pavel-danilyuk-8761345.jpg",
+            "https://i.postimg.cc/59k2VNs9/pexels-pavel-danilyuk-8761336.jpg"
+          ],
+          "special_guests": [
+            {
+              "name": "Mark Johnson",
+              "title": "Leadership Trainer, StrongTeams",
+              "picture": "https://i.postimg.cc/j2PBWcYh/pexels-h-i-nguy-n-1627264-10171449.jpg",
+              "bio": "Mark Johnson is a renowned leadership trainer with over 15 years of experience working with teams from various industries. His dynamic workshops focus on creating high-performing teams through trust-building and effective communication strategies. He will lead participants through activities that challenge their collaboration skills."
+            },
+            {
+              "name": "Emily Williams",
+              "title": "CEO, TeamSynergy",
+              "picture": "https://i.postimg.cc/nL3RM5jx/pexels-kevynlourencofotografia-18266010.jpg",
+              "bio": "Emily Williams has spent her career helping teams across the globe to unlock their full potential. Her expertise lies in fostering a culture of open communication and creative problem-solving. Attendees will leave her sessions with actionable strategies for enhancing teamwork within their organizations."
+            },
+            {
+              "name": "Robert Garcia",
+              "title": "Corporate Psychologist",
+              "picture": "https://i.postimg.cc/WbmQT5nN/pexels-kaleef-lawal-1481864847-27897903.jpg",
+              "bio": "Robert Garcia is a corporate psychologist specializing in organizational behavior. He works with teams to understand their dynamics and provides tailored interventions to improve performance. He will share insights on how psychological factors affect team collaboration and provide tools to create more cohesive units."
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Product Launch Events",
+        "image": "launch.jpg",
+        "price": 10000,
+        "short_description": "Exciting and creative events for new product launches.",
+        "button_text": "Learn More",
+        "route": "/services/productlaunch",
+        "details": {
+          "description": "Our Product Launch Events are designed to generate buzz and excitement around new product offerings. Whether you're unveiling a new tech gadget, fashion line, or service, we craft launch events that captivate your audience and leave a lasting impression. These events are highly customizable and can range from small, intimate gatherings to large, media-covered spectacles. Each launch is carefully coordinated to ensure your brand message is conveyed clearly, while the event itself becomes an unforgettable experience for attendees. With immersive displays, engaging product demos, and high-profile guest appearances, we ensure that your product makes a significant impact in the marketplace.",
+          "duration": "1 Evening",
+          "location": "Customizable Venue Options",
+          "capacity": 200,
+          "event_elements": [
+            "Immersive Product Demos",
+            "Branded Experiences",
+            "Live Performances or Entertainment",
+            "Press and Influencer Coverage"
+          ],
+          "includes": [
+            "Custom Event Design & Decor",
+            "Professional Event Photography",
+            "Media Kits for Press & Influencers",
+            "Post-Event Media Coverage"
+          ],
+          "event_pictures": [
+            "https://i.postimg.cc/1tBctNfj/pexels-pavel-danilyuk-8000659.jpg",
+            "https://i.postimg.cc/W1ZGZydr/pexels-bertellifotografia-25809231.jpg",
+            "https://i.postimg.cc/tCZW0ctf/pexels-bertellifotografia-18966486.jpg"
+          ],
+          "special_guests": [
+            {
+              "name": "Alexandra Wright",
+              "title": "Marketing Strategist, LaunchMasters",
+              "picture": "https://i.postimg.cc/L6jxjhYN/pexels-mert-coskun-386432351-28838870.jpg",
+              "bio": "Alexandra Wright is a marketing strategist with a track record of launching successful products in the tech and consumer goods industries. Her approach to product launches blends storytelling with cutting-edge event marketing tactics. She will discuss how to leverage launch events to build long-lasting brand loyalty."
+            },
+            {
+              "name": "Michael Brooks",
+              "title": "Founder, EventCraft",
+              "picture": "https://i.postimg.cc/qqV5dK66/pexels-h-i-nguy-n-1627264-14246782.jpg",
+              "bio": "Michael Brooks has organized some of the most talked-about product launches in recent years. Known for his ability to create immersive and memorable experiences, Michael will share his insights on the importance of design and atmosphere in successful product launches."
+            },
+            {
+              "name": "Jessica Palmer",
+              "title": "Social Media Influencer & Brand Ambassador",
+              "picture": "https://i.postimg.cc/mrpjTHJ2/pexels-mikhail-nilov-7623666.jpg",
+              "bio": "Jessica Palmer has collaborated with numerous global brands to create buzz around product launches through social media. Her expertise lies in leveraging digital platforms to amplify event reach and drive consumer engagement. She will offer tips on how to maximize social media impact for your next product launch."
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Corporate Meetings",
+        "image": "corporate_meeting.jpg",
+        "price": 5000,
+        "short_description": "Professional and seamless corporate meetings for all purposes.",
+        "button_text": "Learn More",
+        "route": "/services/corporatemeetings",
+        "details": {
+          "description": "Our Corporate Meetings service is tailored for companies seeking professional, seamless, and well-organized meetings. Whether you're hosting an internal strategy session, a board meeting, or a stakeholder discussion, we ensure that everything runs smoothly from start to finish. From venue selection to agenda setting, audiovisual support to catering, we handle all the details so you can focus on the content. We understand the importance of time, precision, and professionalism in corporate settings, which is why our meeting services are designed to be efficient and impactful.",
+          "duration": "Half Day or Full Day",
+          "location": "Premium Conference Rooms or Virtual Options",
+          "capacity": "20-100",
+          "agenda": [
+            "Welcome Reception",
+            "Keynote or Executive Presentation",
+            "Roundtable Discussions",
+            "Q&A Sessions",
+            "Closing Remarks"
+          ],
+          "includes": [
+            "Full AV Support",
+            "Dedicated Event Coordinator",
+            "On-Site Catering",
+            "Post-Event Minutes and Recording"
+          ],
+          "event_pictures": [
+            "https://i.postimg.cc/PxnTxPBY/pexels-rdne-7648306.jpg",
+            "https://i.postimg.cc/W1DvwGV0/pexels-fauxels-3183197.jpg",
+            "https://i.postimg.cc/JnQVzK3C/pexels-divinetechygirl-1181395.jpg"
+          ],
+          "special_guests": [
+            {
+              "name": "David Lee",
+              "title": "Corporate Consultant",
+              "picture": "https://i.postimg.cc/qMGZ9zJg/pexels-kuiyibo-18107767.jpg",
+              "bio": "David Lee is an expert in corporate strategy and meeting facilitation, with over 20 years of experience advising multinational corporations."
+            },
+            {
+              "name": "Samantha Clarke",
+              "title": "Executive Coach",
+              "picture": "https://i.postimg.cc/rmpHJcXz/pexels-vanessa-pozos-3368660-14939217.jpg",
+              "bio": "Samantha Clarke specializes in helping executives drive performance during strategic meetings and sessions."
+            },
+            {
+              "name": "Michael Brown",
+              "title": "CEO, Peak Performance",
+              "picture": "https://i.postimg.cc/T37N3FW6/pexels-luiz-milczwski-1663966103-27868437.jpg",
+              "bio": "Michael Brown offers insights on running successful corporate meetings that align with long-term business goals."
+            }
+          ]
+        }
+      }
+]
