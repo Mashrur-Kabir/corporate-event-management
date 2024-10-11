@@ -1,0 +1,8 @@
+.gradText {
+    background: linear-gradient(to right, rgba(68,16,102,1) 15%,rgba(247,0,104,1) 75%,rgb(196, 49, 91) 100%);
+    letter-spacing: 5px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}

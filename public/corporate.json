@@ -2,9 +2,10 @@
       {
         "id": 1,
         "name": "Executive Conferences",
-        "image": "conference.jpg",
+        "logo": "https://i.postimg.cc/Dwbrjm54/manager.png",
+        "image": "https://i.postimg.cc/g0FT4Cyd/md-duran-r-E9vg-D-TXg-M-unsplash.jpg",
         "price": 12000,
-        "short_description": "High-end corporate conferences for top executives.",
+        "short_info": "High-end corporate conferences for top executives and founders.",
         "button_text": "Learn More",
         "route": "/services/conferences",
         "details": {
@@ -54,9 +55,10 @@
       {
         "id": 2,
         "name": "Trade Shows and Expos",
-        "image": "expo.jpg",
+        "logo": "https://i.postimg.cc/2y6v45V6/billboard.png",
+        "image": "https://i.postimg.cc/Sx8ZXgBP/pexels-cherubs-22669860.jpg",
         "price": 15000,
-        "short_description": "Large-scale trade shows and expos for product showcasing.",
+        "short_info": "Large-scale trade shows and expos for product showcasing",
         "button_text": "Learn More",
         "route": "/services/tradeshows",
         "details": {
@@ -119,9 +121,10 @@
       {
         "id": 3,
         "name": "Team Building Workshops",
-        "image": "teambuilding.jpg",
+        "logo": "https://i.postimg.cc/dVrFHGfy/workshop-3.png",
+        "image": "https://i.postimg.cc/yxkj7jhv/pexels-mikael-blomkvist-6476783.jpg",
         "price": 8000,
-        "short_description": "Interactive workshops designed to enhance teamwork.",
+        "short_info": "Interactive workshops designed to enhance your teamwork prowess",
         "button_text": "Learn More",
         "route": "/services/teambuilding",
         "details": {
@@ -171,9 +174,10 @@
       {
         "id": 4,
         "name": "Product Launch Events",
-        "image": "launch.jpg",
+        "logo": "https://i.postimg.cc/MKffxNBh/product-lauch.png",
+        "image": "https://i.postimg.cc/xTN57s1d/xr-expo-ip-Dh-OQ5gt-Ek-unsplash.jpg",
         "price": 10000,
-        "short_description": "Exciting and creative events for new product launches.",
+        "short_info": "Exciting and creative events for new product launches.",
         "button_text": "Learn More",
         "route": "/services/productlaunch",
         "details": {
@@ -223,9 +227,10 @@
       {
         "id": 5,
         "name": "Corporate Meetings",
-        "image": "corporate_meeting.jpg",
+        "image": "https://i.postimg.cc/Gm0K1k4x/campaign-creators-g-Msn-Xq-ILjp4-unsplash.jpg",
+        "logo": "https://i.postimg.cc/fR4tbCjk/meeting.png",
         "price": 5000,
-        "short_description": "Professional and seamless corporate meetings for all purposes.",
+        "short_info": "Professional and seamless corporate meetings for all purposes.",
         "button_text": "Learn More",
         "route": "/services/corporatemeetings",
         "details": {
