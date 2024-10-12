@@ -9,6 +9,7 @@
         "button_text": "Learn More",
         "route": "/services/conferences",
         "details": {
+          "id": 1201,
           "description": "Our Executive Conferences are designed to bring together the top-tier of corporate leadership for a deep dive into industry trends, innovative strategies, and the future of global markets. These events are carefully curated to provide executives with not just insights, but actionable strategies that they can bring back to their organizations. Each session features high-profile keynote speakers who are pioneers in their respective industries, alongside thought-provoking panel discussions that challenge conventional thinking. Whether the focus is on digital transformation, financial innovations, or leadership in an increasingly globalized world, our conferences aim to provide unparalleled value through networking, collaboration, and thought leadership. The agenda is meticulously planned to ensure every participant leaves with a wealth of knowledge and new business connections.",
           "duration": "2 Days",
           "location": "Hilton Grand Ballroom",
@@ -62,6 +63,7 @@
         "button_text": "Learn More",
         "route": "/services/tradeshows",
         "details": {
+          "id": 1202,
           "description": "Our Trade Shows and Expos are the perfect platform for businesses to showcase their products and services to a large, engaged audience. These events attract hundreds of exhibitors and thousands of attendees, providing unmatched opportunities for networking, lead generation, and customer engagement. Whether you're a startup looking to gain exposure or a seasoned business seeking new partnerships, our expos deliver results. We provide all exhibitors with a fully customizable booth space, complete with AV equipment and branding materials. In addition to a bustling exhibition floor, attendees can enjoy product demos, keynote speeches from industry leaders, and interactive workshops designed to inspire and educate. Our Trade Shows have a proven track record of helping businesses grow by offering direct access to potential clients and industry peers.",
           "duration": "3 Days",
           "location": "Exhibition Center, Downtown",
@@ -85,6 +87,12 @@
                 "Lead Retrieval System"
               ]
             }
+          ],
+          "agenda": [
+            "Keynote Sessions led by global business leaders",
+            "Interactive Panel Discussions on emerging trends",
+            "Breakout Workshops for specialized deep-dives",
+            "Networking Dinner with top-tier executives"
           ],
           "includes": [
             "Pre-Event Marketing to targeted audiences",
@@ -128,6 +136,7 @@
         "button_text": "Learn More",
         "route": "/services/teambuilding",
         "details": {
+          "id": 1203,
           "description": "Our Team Building Workshops are designed to foster collaboration, trust, and effective communication among team members. These workshops combine fun, engaging activities with practical lessons that can be applied directly to the workplace. From problem-solving challenges to outdoor adventure courses, each activity is crafted to strengthen relationships and encourage creative thinking. These workshops are ideal for teams looking to improve their communication, resolve conflicts, and boost overall morale. After the activities, a debriefing session is held where teams can reflect on their performance and discuss how the skills they’ve learned can be applied to real-world scenarios. The event is facilitated by experienced professionals who specialize in leadership development and organizational psychology.",
           "duration": "1 Day",
           "location": "Outdoor or Indoor Facilities Available",
@@ -137,6 +146,12 @@
             "Outdoor Adventure Courses",
             "Collaboration Games",
             "Post-Workshop Analysis"
+          ],
+          "agenda": [
+            "Keynote Sessions led by global business leaders",
+            "Interactive Panel Discussions on emerging trends",
+            "Breakout Workshops for specialized deep-dives",
+            "Networking Dinner with top-tier executives"
           ],
           "includes": [
             "Expert Facilitators to guide each activity",
@@ -181,6 +196,7 @@
         "button_text": "Learn More",
         "route": "/services/productlaunch",
         "details": {
+          "id": 1204,
           "description": "Our Product Launch Events are designed to generate buzz and excitement around new product offerings. Whether you're unveiling a new tech gadget, fashion line, or service, we craft launch events that captivate your audience and leave a lasting impression. These events are highly customizable and can range from small, intimate gatherings to large, media-covered spectacles. Each launch is carefully coordinated to ensure your brand message is conveyed clearly, while the event itself becomes an unforgettable experience for attendees. With immersive displays, engaging product demos, and high-profile guest appearances, we ensure that your product makes a significant impact in the marketplace.",
           "duration": "1 Evening",
           "location": "Customizable Venue Options",
@@ -190,6 +206,12 @@
             "Branded Experiences",
             "Live Performances or Entertainment",
             "Press and Influencer Coverage"
+          ],
+          "agenda": [
+            "Keynote Sessions led by global business leaders",
+            "Interactive Panel Discussions on emerging trends",
+            "Breakout Workshops for specialized deep-dives",
+            "Networking Dinner with top-tier executives"
           ],
           "includes": [
             "Custom Event Design & Decor",
@@ -234,6 +256,7 @@
         "button_text": "Learn More",
         "route": "/services/corporatemeetings",
         "details": {
+          "id": 1205,
           "description": "Our Corporate Meetings service is tailored for companies seeking professional, seamless, and well-organized meetings. Whether you're hosting an internal strategy session, a board meeting, or a stakeholder discussion, we ensure that everything runs smoothly from start to finish. From venue selection to agenda setting, audiovisual support to catering, we handle all the details so you can focus on the content. We understand the importance of time, precision, and professionalism in corporate settings, which is why our meeting services are designed to be efficient and impactful.",
           "duration": "Half Day or Full Day",
           "location": "Premium Conference Rooms or Virtual Options",

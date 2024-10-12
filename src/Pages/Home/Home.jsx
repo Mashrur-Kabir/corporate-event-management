@@ -10,6 +10,10 @@ import "./Home.css";
 import Features from './../Features/Features';
 import check from '../../assets/icons/project_logo/check.png'
 import cross from '../../assets/icons/project_logo/cross.png'
+import gold from '../../assets/icons/project_logo/coin.png'
+import ruby from '../../assets/icons/project_logo/ruby.png'
+import diamond from '../../assets/icons/project_logo/diamond.png'
+import {com1, com2, com3, com4, com5, com6, com7} from '../../AssetExport/Assets'
 
 const Home = () => {
   const datas = useLoaderData();
@@ -57,7 +61,7 @@ const Home = () => {
           />
         </div>
         {/* Banner Content */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 text-center px-4 md:px-8">
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 text-center px-4 md:px-8 scale-90 md:scale-100 lg:scale-110 xl:scale-125">
           <p className="font-poppins text-2xl md:text-3xl text-amber-400">
             {currentDate}
           </p>
@@ -144,70 +148,188 @@ const Home = () => {
         </div>
       </div>
       {/* Our services */}
-      <div className="max-w-7xl mx-auto mb-44 md:mb-60 px-4 md:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-                <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
-                    Featuring
-                </h2>
-                <h2 className="leading-[3.5rem] mb-8 text-5xl font-ubuntu text-blue-950 font-bold">
-                    Our Services
-                </h2>
-            </div>
-            {
-                datas.map(data => <Features key={datas.id} data={data}></Features>)
-            }
+      <div className="bg-gradient-to-r mb-44 from-gray-200 to-slate-300">
+        <div className="max-w-7xl mx-auto md:mb-60 px-4 md:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-28">
+              <div>
+                  <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
+                      Featuring
+                  </h2>
+                  <h2 className="leading-[3.5rem] mb-8 text-5xl font-ubuntu text-blue-950 font-bold">
+                      Our Services
+                  </h2>
+              </div>
+              {
+                  datas.map(data => <Features key={datas.id} data={data}></Features>)
+              }
+        </div>
       </div>
 
       {/* our package */}
-        <div className="font-poppins max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-            {/* card 1 */}
-            <div className="max-w-sm rounded-lg shadow-lg p-6 bg-white border hover:shadow-md transition-shadow duration-300">
-                <div className="flex justify-center mb-6">
-                    <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-                    <img src="your-image-here.png" alt="Icon" className="w-12 h-12" />
-                    </div>
-                </div>
-
-                <h2 className="text-2xl font-bold text-center text-gray-800 mb-4">Full Pass</h2>
-                <p className="text-center text-3xl text-gray-800 font-bold mb-4">$99.99</p>
-
-                <ul className="space-y-2 mb-6">
-                    <li className="flex items-center gap-2">
-                    <img className="w-8" src={check} alt="" />
-                    <span className="text-gray-600">Conference Tickets</span>
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                    <img className="w-8" src={check} alt="" />
-                    <span className="text-gray-600">Free Lunch and Coffee</span>
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                    <img className="w-8" src={check} alt="" />
-                    <span className="text-gray-600">Certificate</span>
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                    <img className="w-8" src={cross} alt="" />
-                    <span className="text-gray-600">Easy Access</span>
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                    <img className="w-8" src={cross} alt="" />
-                    <span className="text-gray-600">Free Contacts</span>
-                    </li>
-                </ul>
-
-                <div className="text-center">
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300">
-                    BUY Ticket
-                    </button>
-                </div>
-            </div>
-
-
+      <div className="mb-44 bg-gradient-to-r from-sky-200 to-pink-200 py-20">
+        {/* title */}
+        <div className="text-center mb-20">
+            <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
+                Our Package
+            </h2>
+            <h2 className="leading-[3.5rem] text-5xl font-ubuntu text-blue-950 font-bold">
+                Choose A Package
+            </h2>
         </div>
+        
+        {/* cards */}
+        <div className="max-w-7xl mx-auto font-poppins md:px-8 grid grid-cols-1 md:grid-cols-3 gap-6 cursor-pointer">
+          {/* card 1 */}
+          <div className="flex justify-center items-center">
+              <div className="bg-white rounded-sm shadow-2xl w-80 text-center pt-16 pb-8 px-10 border-amber-500 border-b-[1.25rem] border-t-[9rem] relative transition-shadow duration-300 hover:shadow-none">
+                  {/* Icon/Image */}
+                  <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 border-[0.85rem] border-white rounded-full z-0 parent-div-1">
+                    <div className="bg-white rounded-full border-[0.35rem] w-32 h-32 border-amber-500 mx-auto flex items-center justify-center mb-4 p-5">
+                      <img className="w-16 fancy-animation" src={gold} alt="" />
+                    </div>
+                  </div>
+                  
+                  {/* Title */}
+                  <h2 className="mt-8 text-2xl font-semibold mb-4 relative z-10">Gold Pass</h2>
+
+                  {/* Price */}
+                  <p className="text-3xl font-bold text-amber-500 mb-6 font-ubuntu">$35.99</p>
+
+                  {/* Features List */}
+                  <ul className="text-left mb-6">
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Conference Tickets
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Free Lunch And Coffee
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-red-600 mr-3" src={cross} alt="" /> Certificate
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-red-600 mr-3" src={cross} alt="" /> Easy Access
+                      </li>
+                      <li className="flex items-center mb-2 py-2 font-medium text-gray-400">
+                          <img className="w-4 h-4 rounded-full border-2 border-red-600 mr-3" src={cross} alt="" /> Free Contacts
+                      </li>
+                  </ul>
+
+                  {/* Button */}
+                  <button className="bg-amber-500 border-2 border-amber-500 text-white py-2 px-6 rounded-md font-medium transition-colors duration-200 ease-in-out hover:bg-white hover:text-amber-600">
+                    BUY Package
+                  </button>
+              </div>
+          </div>
+
+          {/* card 2 */}
+          <div className="flex justify-center items-center">
+              <div className="bg-white rounded-sm shadow-2xl w-80 text-center pt-16 pb-8 px-10 border-sky-500 border-b-[1.25rem] border-t-[9rem] relative transition-shadow duration-300 hover:shadow-none">
+                  {/* Icon/Image */}
+                  <div className="parent-div absolute -top-20 left-1/2 transform -translate-x-1/2 border-[0.85rem] border-white rounded-full z-0">
+                    <div className="bg-white rounded-full border-[0.35rem] w-32 h-32 border-sky-500 mx-auto flex items-center justify-center mb-4 p-5">
+                      <img className="w-16" src={diamond} alt="" />
+                    </div>
+                  </div>
+
+                  
+                  {/* Title */}
+                  <h2 className="mt-8 text-2xl font-semibold mb-4 relative z-10">Diamond Pass</h2>
+
+                  {/* Price */}
+                  <p className="text-3xl font-bold text-sky-500 mb-6 font-ubuntu">$99.99</p>
+
+                  {/* Features List */}
+                  <ul className="text-left mb-6">
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Conference Tickets
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Free Lunch And Coffee
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Certificate
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Easy Access
+                      </li>
+                      <li className="flex items-center mb-2 py-2 font-medium text-gray-400">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Free Contacts
+                      </li>
+                  </ul>
+
+                  {/* Button */}
+                  <button className="bg-sky-500 border-2 border-sky-500 text-white py-2 px-6 rounded-md font-medium transition-colors duration-200 ease-in-out hover:bg-white hover:text-sky-600">
+                    BUY Package
+                  </button>
+              </div>
+          </div>
+
+          {/* card 3 */}
+          <div className="flex justify-center items-center">
+              <div className="bg-white rounded-sm shadow-2xl w-80 text-center pt-16 pb-8 px-10 border-rose-500 border-b-[1.25rem] border-t-[9rem] relative transition-shadow duration-300 hover:shadow-none">
+                  {/* Icon/Image */}
+                  <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 border-[0.85rem] border-white rounded-full z-0 parent-div-3">
+                    <div className="bg-white rounded-full border-[0.35rem] w-32 h-32 border-rose-500 mx-auto flex items-center justify-center mb-4 p-5">
+                      <img className="w-16 slide-in-animation" src={ruby} alt="" />
+                    </div>
+                  </div>
+                  
+                  {/* Title */}
+                  <h2 className="mt-8 text-2xl font-semibold mb-4 relative z-10">Ruby Pass</h2>
+
+                  {/* Price */}
+                  <p className="text-3xl font-bold text-rose-500 mb-6 font-ubuntu">$59.99</p>
+
+                  {/* Features List */}
+                  <ul className="text-left mb-6">
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Conference Tickets
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Free Lunch And Coffee
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-green-600 mr-3" src={check} alt="" /> Certificate
+                      </li>
+                      <li className="flex items-center mb-2 border-b-2 font-medium text-gray-400 border-gray-300 border-dashed py-2">
+                          <img className="w-4 h-4 rounded-full border-2 border-red-600 mr-3" src={cross} alt="" /> Easy Access
+                      </li>
+                      <li className="flex items-center mb-2 py-2 font-medium text-gray-400">
+                          <img className="w-4 h-4 rounded-full border-2 border-red-600 mr-3" src={cross} alt="" /> Free Contacts
+                      </li>
+                  </ul>
+
+                  {/* Button */}
+                  <button className="bg-rose-500 border-2 border-rose-500 text-white py-2 px-6 rounded-md font-medium transition-colors duration-200 ease-in-out hover:bg-white hover:text-rose-600">
+                    BUY Package
+                  </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Partners */}
+      <div className="bg-gradient-to-r from-slate-300 to-gray-100 mb-44 py-28">
+        <div className="text-center mb-20">
+            <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
+                Collaborative
+            </h2>
+            <h2 className="leading-[3.5rem] mb-8 text-5xl font-ubuntu text-blue-950 font-bold">
+                Our Partnerships
+            </h2>
+        </div>
+        <div className="grid md:px-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com1} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com2} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com3} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com4} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com5} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com6} alt="" />
+            <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com7} alt="" />
+        </div>
+
+
+      </div>
+    
     </div>
   );
 };
