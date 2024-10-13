@@ -1,0 +1,126 @@
+ 
+    /* Custom Underline for Section Titles */
+    section h2::after {
+        content: '';
+        display: block;
+        width: 80px;
+        height: 4px;
+        background-color: #4a90e2; /* Smooth blue underline */
+        margin: 0.5rem auto;
+    }
+    
+    /* About Us Section */
+    .about-us p {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        color: #606f7b;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    
+    /* Achievement Cards */
+    .achievement-card {
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .achievement-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Team Member Social Media Icons */
+    .social-icons a {
+        color: #6b7280; /* Initial color */
+        transform: translateX(50px); /* Hide icons initially */
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .team-member img {
+        transition: transform 0.3s ease-in-out; /* Ensure smooth transition */
+    }
+    
+    .team-member:hover img {
+        transform: scale(1.1); /* Adjust the scale factor as needed */
+    }
+    
+    .team-member:hover .social-icons a {
+        transform: translateX(0); /* Move icons into view on hover */
+    }
+    
+    .team-member:hover .social-icons {
+        opacity: 1; /* Make icons visible */
+    }
+    
+    /* Transition for the whole container of icons */
+    .social-icons {
+        opacity: 0; /* Hidden initially */
+        transition: opacity 0.3s ease-in-out;
+    }
+
+  
+    /* Location Section */
+    .google-map {
+        margin: 3rem auto;
+        max-width: 900px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+    
+    .location {
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border-radius: 10px;
+    }
+    
+    .location h2 {
+        color: #2d3748;
+    }
+    
+    /* Contact Us Section */
+    .contact-us {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+    
+    .contact-us form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .contact-us label {
+        color: #4a5568;
+    }
+    
+    .contact-us input,
+    .contact-us textarea {
+        padding: 0.75rem;
+        border: 1px solid #cbd5e0;
+        border-radius: 5px;
+        transition: border-color 0.3s ease;
+    }
+    
+    .contact-us input:focus,
+    .contact-us textarea:focus {
+        border-color: #4a90e2;
+    }
+    
+    /* Media Queries */
+    @media (min-width: 768px) {
+        .about-us p {
+        padding: 0;
+        }
+    
+        .achievement-card img {
+        width: 100px;
+        }
+    
+        .team-cartoon img {
+        max-width: 500px;
+        }
+    }
+  

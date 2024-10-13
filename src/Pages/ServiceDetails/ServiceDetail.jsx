@@ -24,25 +24,25 @@ const ServiceDetail = () => {
     const [showIncludes, setShowIncludes] = useState(false);
 
     // Custom arrows for the slider
-    const PrevArrow = (props) => (
-        <div className="slick-arrow slick-prev" onClick={props.onClick}>
+    const PrevArrow = ({ onClick }) => (
+        <div className="slick-arrow slick-prev" onClick={onClick}>
             <MdArrowBackIos className="text-3xl text-gray-600 hover:text-gray-800" />
         </div>
     );
 
-    const NextArrow = (props) => (
-        <div className="slick-arrow slick-next" onClick={props.onClick}>
+    const NextArrow = ({ onClick }) => (
+        <div className="slick-arrow slick-next" onClick={onClick}>
             <MdArrowForwardIos className="text-3xl text-gray-600 hover:text-gray-800" />
         </div>
     );
 
     // PropTypes validation for the arrow components
     PrevArrow.propTypes = {
-        onClick: PropTypes.func.isRequired, // Validate that onClick is a function and required
+        onClick: PropTypes.func,
     };
 
     NextArrow.propTypes = {
-        onClick: PropTypes.func.isRequired, // Validate that onClick is a function and required
+        onClick: PropTypes.func,
     };
 
     // Slider settings
@@ -148,30 +148,30 @@ const ServiceDetail = () => {
                         The Event Speakers
                     </h2>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-poppins max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-poppins max-w-7xl mx-auto px-10">
                     {special_guests?.map((guest, index) => (
-                        <div key={index} className="bg-white rounded-lg shadow-lg p-10 flex flex-col items-center hover:shadow-2xl transition-shadow">
-                        <div className="relative group w-36 h-36 rounded-full mb-7 border-[6px] border-custom-blue overflow-hidden">
-                            {/* Image and overlay container */}
-                            <img
-                            src={guest?.picture}
-                            alt={guest?.name}
-                            className="w-full h-full rounded-full object-cover transition-transform duration-500 group-hover:scale-110"
-                            />
-                            {/* Rose-colored overlay */}
-                            <div className="absolute inset-0 bg-gradient-to-r from-custom-pink to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-80 group-hover:scale-110 rounded-full"></div>
+                        <div key={index} className="bg-gradient-to-r from-gray-100 to-pink-100 rounded-lg shadow-lg p-10 flex flex-col items-center hover:shadow-2xl transition-shadow">
+                            <div className="relative group w-36 h-36 rounded-full mb-7 border-[6px] border-custom-blue overflow-hidden">
+                                {/* Image and overlay container */}
+                                <img
+                                src={guest?.picture}
+                                alt={guest?.name}
+                                className="w-full h-full rounded-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                                {/* Rose-colored overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-r from-custom-pink to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-80 group-hover:scale-110 rounded-full"></div>
 
-                            {/* Social icons */}
-                            <div className="absolute inset-0 flex justify-center items-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                            <a href="#" className="text-white">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" className="text-white">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" className="text-white">
-                                <i className="fab fa-linkedin-in"></i>
-                            </a>
+                                {/* Social icons */}
+                                <div className="absolute inset-0 flex justify-center items-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                <a href="#" className="text-white">
+                                    <i className="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" className="text-white">
+                                    <i className="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" className="text-white">
+                                    <i className="fab fa-linkedin-in"></i>
+                                </a>
                             </div>
                         </div>
 
@@ -185,10 +185,6 @@ const ServiceDetail = () => {
 
         </div>
     );
-};
-
-ServiceDetail.propTypes = {
-    id: PropTypes.number.isRequired,
 };
 
 export default ServiceDetail;

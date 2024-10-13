@@ -11,7 +11,6 @@ import { BsGlobeAsiaAustralia } from "react-icons/bs";
 
 import '../Navbar/Navbar.css'
 
-
 const Footer = () => {
     return (
         <div className='bg-indigo-950'>
@@ -42,7 +41,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* contact us*/}
+                {/* contact us */}
                 <div className="flex flex-col items-start gap-5 cursor-pointer">
                     <h2 className="font-ubuntu font-semibold text-2xl text-white custom-underline ml-1">Contact Us</h2>
                     <p className='font-poppins font-medium flex items-center gap-3 text-white hover:text-custom-pink'><IoIosTimer className='text-3xl' />Mon - Fri: 09:00 - 19:00</p>
@@ -51,6 +50,11 @@ const Footer = () => {
                     <p className='font-poppins font-medium flex items-center gap-3 text-white hover:text-custom-pink'><BsGlobeAsiaAustralia className='text-2xl' />13005 Greenville Avenue <br />
                     California, TX 70240</p>
                 </div>
+            </div>
+
+            {/* Rights reserved section */}
+            <div className='bg-purple-900 text-center py-4'>
+                <p className='text-gray-400 font-poppins'>&copy; {new Date().getFullYear()} Corporex. All rights reserved.</p>
             </div>
         </div>
     );

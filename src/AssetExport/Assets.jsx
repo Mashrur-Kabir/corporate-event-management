@@ -14,6 +14,11 @@ import com10 from '../assets/icons/company/White and Blue Modern Company Logo_20
 import com11 from '../assets/icons/company/Yellow Modern Marketing Company Logo_20241009_173349_0000.png'
 import com12 from '../assets/icons/company/Blue Abstract Corporate Company Logo_20241009_173041_0000.png'
 
+/* team leaders */
+import david from '../assets/images/david.jpg'
+import sarah from '../assets/images/sarah.jpg'
+import alice from '../assets/images/alice.jpg'
+
 export {
-    com1, com2, com3, com4, com5, com6, com7, com8, com9, com10, com11, com12,
+    com1, com2, com3, com4, com5, com6, com7, com8, com9, com10, com11, com12, david, alice, sarah,
 };

@@ -49,7 +49,7 @@ const Home = () => {
   }, [timeLeft]);
 
   return (
-    <div>
+    <div className="">
       {/* Header */}
       <div className="relative">
         {/* Background Image */}
@@ -83,7 +83,7 @@ const Home = () => {
               FLORIDA{" "}
             </p>
           </div>
-          <Link to="/booknow">
+          <Link to="/login">
             <button className="relative px-6 py-3 md:px-7 md:py-3 rounded-lg bg-amber-400 text-white font-poppins overflow-hidden group">
               <span className="relative z-20 transition-colors duration-300 ease-in-out group-hover:text-amber-600">
                 Book Now
@@ -159,7 +159,7 @@ const Home = () => {
                   </h2>
               </div>
               {
-                  datas.map(data => <Features key={datas.id} data={data}></Features>)
+                  datas.map((data, idx) => <Features key={idx} data={data}></Features>)
               }
         </div>
       </div>
@@ -326,8 +326,6 @@ const Home = () => {
             <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com6} alt="" />
             <img className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none" src={com7} alt="" />
         </div>
-
-
       </div>
     
     </div>
