@@ -64,7 +64,7 @@ const About = () => {
         </div>
       </section>
 
-    {/* Team Cartoon Section */}
+    {/* Team Section */}
     <section className="bg-gradient-to-r from-gray-200 to-pink-100 team-cartoon my-20 py-20 font-poppins">
         <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950">Our Team</h2>
 
@@ -88,7 +88,7 @@ const About = () => {
                 </p>
 
                 {/* Social Media Icons */}
-                <div className="social-icons flex absolute right-10 top-[14.55rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
+                <div className="social-icons flex absolute right-10 top-[13rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
                     <a href="https://instagram.com" className="hover:text-pink-500 transition-transform">
                         <FontAwesomeIcon className='w-5 h-5' icon={faInstagram} />
                     </a>
@@ -111,7 +111,7 @@ const About = () => {
                 </p>
 
                 {/* Social Media Icons */}
-                <div className="social-icons flex absolute right-10 top-[14.55rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
+                <div className="social-icons flex absolute right-10 top-[13rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
                     <a href="https://instagram.com" className="hover:text-pink-500 transition-transform">
                         <FontAwesomeIcon className='w-5 h-5' icon={faInstagram} />
                     </a>
@@ -134,7 +134,7 @@ const About = () => {
                 </p>
 
                 {/* Social Media Icons */}
-                <div className="social-icons flex absolute right-10 top-[14.55rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
+                <div className="social-icons flex absolute right-10 top-[13rem] transform -translate-y-1/2 space-x-4 opacity-0 transition-opacity duration-300">
                     <a href="https://instagram.com" className="hover:text-pink-500 transition-transform">
                         <FontAwesomeIcon className='w-5 h-5' icon={faInstagram} />
                     </a>

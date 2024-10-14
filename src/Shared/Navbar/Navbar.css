@@ -1,7 +1,7 @@
 /* Ensure the links are clickable */
 .custom-underline {
     position: relative;
-    padding-bottom: 2px; /* Adds a gap between text and underline */
+    padding-bottom: 5px; /* Adds a gap between text and underline */
     display: inline-block;
     z-index: 20; /* Ensure links are above other elements */
 }

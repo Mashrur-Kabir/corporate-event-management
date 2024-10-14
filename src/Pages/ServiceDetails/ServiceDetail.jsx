@@ -60,7 +60,7 @@ const ServiceDetail = () => {
     return (
         <div className="p-6 my-28">
             <div className="max-w-7xl mx-auto">
-                <div className="max-w-md mx-auto text-center mb-12 cursor-pointer">
+                <div className="text-center mb-12 cursor-pointer">
                     <h2 className="text-4xl font-bold text-blue-950 font-ubuntu custom-underline">{name}</h2>
                 </div>
 

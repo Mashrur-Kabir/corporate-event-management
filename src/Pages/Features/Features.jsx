@@ -6,7 +6,7 @@ const Features = ({data}) => {
     const {name, short_info, logo, id} = data;
 
     return (
-        <Link to={`/data/${id}`} className='bg-white rounded-lg cursor-pointer flex items-center gap-6 border px-5 py-10 shadow-xl transition-shadow duration-300 hover:shadow-none'>
+        <Link to={`/data/${id}`} className='bg-white rounded-lg cursor-pointer flex items-center gap-6 border px-6 py-10 shadow-xl transition-shadow duration-300 hover:shadow-none'>
             <div>
                 <img className='w-35 transition-transform duration-300 hover:scale-110 hover:opacity-100 opacity-80' src={logo} alt="" />
             </div>

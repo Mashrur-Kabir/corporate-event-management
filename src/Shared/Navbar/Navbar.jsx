@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className="font-poppins font-medium flex items-center space-x-7">
                     <Link className="custom-underline" to="/">Home</Link>
                     <Link className="custom-underline" to="/about">About</Link>
-                    <Link className="custom-underline" to="/blog">Blog</Link>
+                    <Link className="custom-underline" to="/blogs">Blog</Link>
                     {
                         user ? 
                             <button onClick={handleLogOut} className="custom-underline">

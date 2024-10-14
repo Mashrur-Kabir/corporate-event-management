@@ -1,0 +1,180 @@
+[
+      { 
+        "id": 1,
+        "category_name": "Corporate Insights",
+        "news": [
+          {
+            "title": "Shaping Future Workplaces: Trends in Corporate Culture",
+            "posted_by": "Sarah Johnson",
+            "image": "https://i.postimg.cc/MHSRzdd8/pexels-pixabay-416405.jpg",
+            "date_posted": "2024-10-12",
+            "short_description": "Corporations are focusing more on employee well-being and flexible workspaces.",
+            "long_description": "As businesses evolve, corporate culture is undergoing significant changes. From prioritizing employee well-being to offering flexible and remote workspaces, companies are striving to create environments where employees can thrive both professionally and personally. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores aliaslaborum. ",
+            "likes": 120,
+            "shares": 45
+          },
+          {
+            "title": "How Leadership Styles Impact Company Success",
+            "posted_by": "Michael Brown",
+            "image": "https://i.postimg.cc/9XdZLHQX/pexels-divinetechygirl-1181355.jpg",
+            "date_posted": "2024-09-28",
+            "short_description": "Exploring the connection between leadership styles and business outcomes.",
+            "long_description": "Leadership plays a crucial role in the success of any organization. This article delves into how different leadership approaches—whether autocratic, democratic, or transformational—can either propel a company to new heights or hinder its growth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores ",
+            "likes": 180,
+            "shares": 60
+          }
+        ]
+      },
+      { 
+        "id": 2,
+        "category_name": "Travel Agency",
+        "news": [
+          {
+            "title": "Corporate Travel in the Post-Pandemic World",
+            "posted_by": "Emily Clark",
+            "image": "https://i.postimg.cc/Ss0YGg0z/pexels-vojta-kovarik-388639-3243090.jpg",
+            "date_posted": "2024-10-01",
+            "short_description": "Businesses are adjusting their travel strategies in a post-COVID environment.",
+            "long_description": "With the lifting of travel restrictions, corporations are rethinking their travel policies. This article discusses how companies are balancing cost-saving measures with the need for face-to-face meetings and conferences. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 230,
+            "shares": 80
+          },
+          {
+            "title": "Sustainable Travel for Corporations: Green Initiatives",
+            "posted_by": "Liam Watson",
+            "image": "https://i.postimg.cc/d367wvh8/pexels-andrew-cutajar-347725497-28787084.jpg",
+            "date_posted": "2024-09-25",
+            "short_description": "Eco-friendly options are becoming a priority for corporate travel managers.",
+            "long_description": "As sustainability becomes a focus for many organizations, corporate travel managers are seeking ways to reduce carbon footprints. From choosing eco-friendly hotels to opting for electric vehicles, businesses are finding ways to travel more sustainably. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 170,
+            "shares": 55
+          },
+          {
+            "title": "Top Destinations for Corporate Conferences in 2024",
+            "posted_by": "Olivia Davis",
+            "image": "https://i.postimg.cc/RVC6G3YG/pexels-jimmy-liao-3615017-28849882.jpg",
+            "date_posted": "2024-09-18",
+            "short_description": "Exploring popular destinations for corporate conferences next year.",
+            "long_description": "As companies plan for 2024, certain cities are emerging as top picks for corporate conferences. This article highlights some of the most popular destinations, including major hubs like New York, Berlin, and Singapore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 90,
+            "shares": 30
+          }
+        ]
+      },
+      { 
+        "id": 3,
+        "category_name": "Technology",
+        "news": [
+          {
+            "title": "AI in the Workplace: Transforming Corporate Efficiency",
+            "posted_by": "John Lee",
+            "image": "https://i.postimg.cc/mgJPbmg6/pexels-divinetechygirl-1181319.jpg",
+            "date_posted": "2024-10-10",
+            "short_description": "Artificial Intelligence is revolutionizing the corporate sector.",
+            "long_description": "Artificial Intelligence is transforming the way businesses operate, streamlining tasks from customer service to data analysis. In this article, we explore how AI is improving corporate efficiency and the challenges companies face in integrating these technologies. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 320,
+            "shares": 110
+          },
+          {
+            "title": "The Role of Blockchain in Corporate Security",
+            "posted_by": "Sophia Martinez",
+            "image": "https://i.postimg.cc/d0CLDG7Q/pexels-tima-miroshnichenko-6614751.jpg",
+            "date_posted": "2024-09-30",
+            "short_description": "How blockchain technology is being utilized to enhance corporate security measures.",
+            "long_description": "Blockchain is making waves beyond the cryptocurrency world. In the corporate sector, it's being used to improve security, ensuring safer transactions and protecting sensitive data from cyberattacks. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 250,
+            "shares": 90
+          }
+        ]
+      },
+      { 
+        "id": 4,
+        "category_name": "Business",
+        "news": [
+          {
+            "title": "Startups vs. Corporations: The Battle for Talent",
+            "posted_by": "Emma White",
+            "image": "https://i.postimg.cc/nztMmM74/pexels-moose-photos-170195-1586973.jpg",
+            "date_posted": "2024-10-05",
+            "short_description": "How startups are competing with larger corporations to attract top talent.",
+            "long_description": "Startups are attracting talented professionals by offering flexibility, innovation, and opportunities for rapid growth. This article explores the challenges large corporations face in retaining top talent amid the rise of these agile newcomers. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 400,
+            "shares": 130
+          },
+          {
+            "title": "Mergers and Acquisitions: What to Expect in 2024",
+            "posted_by": "Daniel Wilson",
+            "image": "https://i.postimg.cc/85BcmDBq/pexels-rebrand-cities-581004-1367276.jpg",
+            "date_posted": "2024-09-22",
+            "short_description": "A look ahead at major corporate mergers and acquisitions for the coming year.",
+            "long_description": "As the business world becomes more competitive, companies are turning to mergers and acquisitions to strengthen their market positions. This article discusses some of the most anticipated deals for 2024 and their potential impact on the corporate landscape. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 150,
+            "shares": 70
+          },
+          {
+            "title": "Corporate Social Responsibility: Beyond Profits",
+            "posted_by": "Grace Harris",
+            "image": "https://i.postimg.cc/SRgKHrPd/pexels-pixabay-265087.jpg",
+            "date_posted": "2024-09-15",
+            "short_description": "Businesses are embracing social responsibility as part of their core strategies.",
+            "long_description": "In today's business environment, profitability isn't the only priority. Corporations are increasingly being held accountable for their social and environmental impacts. This article explores how businesses are integrating Corporate Social Responsibility (CSR) into their operations. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur similique doloremque quo nobis repudiandae voluptate expedita in ipsa quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime esse maiores dolores alias laborum, porro quod magni quis vitae illum dicta. At, dolore adipisci exercitationem, culpa minus corporis dicta deserunt eveniet facilis, incidunt molestiae?",
+            "likes": 200,
+            "shares": 85
+          }
+        ]
+      },
+      { 
+        "id": 5,
+        "category_name": "Healthcare",
+        "news": [
+          {
+            "title": "The Role of Corporations in Healthcare Innovation",
+            "posted_by": "David King",
+            "image": "https://i.postimg.cc/Kcf4KGYT/pexels-pixabay-40568.jpg",
+            "date_posted": "2024-09-29",
+            "short_description": "How corporations are driving innovation in the healthcare industry.",
+            "long_description": "Healthcare innovation is not just driven by medical professionals, but also by corporations investing in cutting-edge technologies. This article highlights how corporations are contributing to healthcare advancements, from telemedicine to biotechnology.",
+            "likes": 280,
+            "shares": 95
+          },
+          {
+            "title": "Workplace Wellness Programs: A Growing Trend",
+            "posted_by": "Isabella Garcia",
+            "image": "https://i.postimg.cc/Zqgt09C7/pexels-rdne-6518762.jpg",
+            "date_posted": "2024-09-21",
+            "short_description": "Companies are increasingly investing in employee health through wellness programs.",
+            "long_description": "As the importance of mental and physical health in the workplace grows, many corporations are launching wellness programs to help employees stay healthy and productive. This article explores the impact of these programs on both employee satisfaction and company performance.",
+            "likes": 260,
+            "shares": 100
+          }
+        ]
+      },
+      { 
+        "id": 6,
+        "category_name": "Finance",
+        "news": [
+          {
+            "title": "Corporate Financial Planning for a Volatile Market",
+            "posted_by": "William Moore",
+            "image": "https://i.postimg.cc/9FNMpLZF/pexels-energepic-com-27411-159888.jpg",
+            "date_posted": "2024-10-07",
+            "short_description": "How corporations are preparing for economic volatility in the year ahead.",
+            "long_description": "In an increasingly uncertain economic climate, financial planning has never been more important for corporations. This article explores the strategies businesses are using to manage risk and protect their bottom lines amid market fluctuations.",
+            "likes": 340,
+            "shares": 120
+          },
+          {
+            "title": "Sustainable Finance: A New Corporate Imperative",
+            "posted_by": "James Taylor",
+            "image": "https://i.postimg.cc/yNC7QtdB/pexels-pixabay-164527.jpg",
+            "date_posted": "2024-09-26",
+            "short_description": "Businesses are incorporating sustainability into their financial practices.",
+            "long_description": "Sustainable finance is quickly becoming a priority for businesses worldwide. Companies are finding that integrating environmental, social, and governance (ESG) criteria into financial decision-making not only benefits society but also enhances long-term profitability.",
+            "likes": 310,
+            "shares": 105
+          }
+        ]
+      }
+]
+
+  
