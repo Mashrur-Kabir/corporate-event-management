@@ -284,9 +284,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* Our Partners */}
-        <div className="bg-gradient-to-r from-slate-300 to-gray-100 mb-44 py-28">
+      </div>
+      
+      {/* Our Partners */}
+      <div className="bg-gradient-to-r from-slate-300 to-gray-100 mb-44 py-28">
           <div className="text-center mb-20">
             <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
               Collaborative
@@ -333,7 +334,6 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
     </div>
   );
 };
