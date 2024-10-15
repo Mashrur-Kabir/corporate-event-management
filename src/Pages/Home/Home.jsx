@@ -71,35 +71,43 @@ const Home = () => {
         {/* Background Image */}
         <div>
           <img
-            className="brightness-[0.40] w-full h-screen object-cover"
+            className="brightness-[0.40] w-full h-[60vh] md:h-[80vh] lg:h-screen object-cover"
             src={bg}
             alt="Background"
           />
         </div>
         {/* Banner Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 text-center px-4 md:px-8 scale-90 md:scale-100 lg:scale-110 xl:scale-125">
-          <p className="font-poppins text-2xl md:text-3xl text-amber-400">
+          {/* Date with fade-up effect */}
+          <p className="font-poppins text-2xl md:text-3xl text-amber-400"
+            data-aos="fade-up">
             {currentDate}
           </p>
-          <p className="text-4xl md:text-5xl font-ubuntu font-semibold text-white leading-snug md:leading-[1.2em]">
+
+          {/* Title with zoom-in effect */}
+          <p className="text-4xl md:text-5xl font-ubuntu font-semibold text-white leading-snug md:leading-[1.2em]"
+            data-aos="zoom-in">
             World Digital <br /> Conference 2024
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-white mb-6">
+
+          {/* Details with fade-right effect */}
+          <div
+            className="flex flex-wrap items-center justify-center gap-4 text-white mb-6"
+            data-aos="fade-right">
             <p className="font-poppins text-sm md:text-lg flex items-center">
-              {" "}
               <FaChair className="mr-2 md:mr-3 text-amber-400" /> 5000 SEATS
             </p>
             <p className="font-poppins text-sm md:text-lg flex items-center">
-              {" "}
               <IoPerson className="mr-2 md:mr-3 text-amber-400" /> 12 SPEAKERS
             </p>
             <p className="font-poppins text-sm md:text-lg flex items-center">
-              {" "}
               <FaLocationDot className="mr-2 md:mr-3 text-amber-400" /> MIAMI,
-              FLORIDA{" "}
+              FLORIDA
             </p>
           </div>
-          <Link to="/login">
+
+          {/* Button with flip-up effect */}
+          <Link to="/hire" data-aos="flip-up">
             <button className="relative px-6 py-3 md:px-7 md:py-3 rounded-lg bg-amber-400 text-white font-poppins overflow-hidden group">
               <span className="relative z-20 transition-colors duration-300 ease-in-out group-hover:text-amber-600">
                 Book Now
@@ -108,45 +116,46 @@ const Home = () => {
               <span className="absolute inset-0 bg-amber-400 transition-transform duration-300 ease-in-out transform group-hover:-translate-x-full z-0"></span>
             </button>
           </Link>
-        </div>
+        </div>  
 
         {/* Countdown Timer */}
-        <div className="absolute rounded-sm -bottom-12 md:-bottom-[4rem] left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-custom-blue to-custom-pink text-white py-5 px-6 md:py-7 md:px-8 shadow-lg max-w-lg md:max-w-4xl w-full mx-auto">
-          <div className="flex gap-4 md:gap-6 items-center justify-center font-poppins">
+        <div className="absolute rounded-sm -bottom-12 md:-bottom-[4rem] left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-custom-blue to-custom-pink text-white py-4 px-5 sm:py-6 sm:px-7 md:py-7 md:px-8 shadow-lg w-full max-w-md sm:max-w-lg md:max-w-4xl mx-auto">
+          <div className="flex gap-3 sm:gap-4 md:gap-6 items-center justify-center font-poppins">
             <div className="text-center">
-              <p className="text-4xl md:text-6xl font-bold">
+              <p className="text-3xl sm:text-4xl md:text-6xl font-bold">
                 {timeLeft.days || "0"}
               </p>
-              <p className="text-base md:text-lg">Days</p>
+              <p className="text-sm sm:text-base md:text-lg">Days</p>
             </div>
-            <p className="text-4xl md:text-6xl font-semibold">:</p>
+            <p className="text-3xl sm:text-4xl md:text-6xl font-semibold">:</p>
             <div className="text-center">
-              <p className="text-4xl md:text-6xl font-bold">
+              <p className="text-3xl sm:text-4xl md:text-6xl font-bold">
                 {timeLeft.hours || "0"}
               </p>
-              <p className="text-base md:text-lg">Hours</p>
+              <p className="text-sm sm:text-base md:text-lg">Hours</p>
             </div>
-            <p className="text-4xl md:text-6xl font-semibold">:</p>
+            <p className="text-3xl sm:text-4xl md:text-6xl font-semibold">:</p>
             <div className="text-center">
-              <p className="text-4xl md:text-6xl font-bold">
+              <p className="text-3xl sm:text-4xl md:text-6xl font-bold">
                 {timeLeft.minutes || "0"}
               </p>
-              <p className="text-base md:text-lg">Minutes</p>
+              <p className="text-sm sm:text-base md:text-lg">Minutes</p>
             </div>
-            <p className="text-4xl md:text-6xl font-semibold">:</p>
+            <p className="text-3xl sm:text-4xl md:text-6xl font-semibold">:</p>
             <div className="text-center">
-              <p className="text-4xl md:text-6xl font-bold">
+              <p className="text-3xl sm:text-4xl md:text-6xl font-bold">
                 {timeLeft.seconds || "0"}
               </p>
-              <p className="text-base md:text-lg">Seconds</p>
+              <p className="text-sm sm:text-base md:text-lg">Seconds</p>
             </div>
           </div>
         </div>
+        
       </div>
 
       {/* why choose us */}
-      <div className="max-w-7xl mx-auto my-44 md:my-60 px-4 md:px-8 flex items-center justify-between">
-        <div>
+      <div className="md:max-w-7xl mx-auto my-44 md:my-60 px-4 md:px-8 flex flex-col md:flex-row items-center justify-between">
+        <div className="text-center md:text-left">
           <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
             Join Our Endeavors
           </h2>
@@ -159,14 +168,15 @@ const Home = () => {
             veniam quis nostrud exercitation ullamco laboris nisi ut aliquip
           </p>
         </div>
-        <div>
+        <div className="mt-10 md:mt-0">
           <img src={whyus} alt="" />
         </div>
       </div>
+      
       {/* Our services */}
-      <div className="bg-gradient-to-r mb-44 from-gray-200 to-slate-300">
+      <div className="bg-gradient-to-r mb-44 from-gray-200 to-slate-300" data-aos="fade-up">
         <div className="max-w-7xl mx-auto md:mb-60 px-4 md:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6 py-28">
-          <div>
+          <div data-aos="slide-right">
             <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
               Featuring
             </h2>
@@ -181,13 +191,13 @@ const Home = () => {
       </div>
 
       {/* our package */}
-      <div className="mb-44 bg-gradient-to-r from-sky-200 to-pink-200 py-20">
+      <div className="mb-44 bg-gradient-to-r from-sky-200 to-pink-200 py-20" data-aos="fade-up">
         {/* title */}
         <div className="text-center mb-20">
           <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
             Our Package
           </h2>
-          <h2 className="leading-[3.5rem] text-5xl font-ubuntu text-blue-950 font-bold">
+          <h2 className="leading-[3.5rem] text-5xl font-ubuntu text-blue-950 font-bold" data-aos="zoom-in">
             Choose A Package
           </h2>
         </div>
@@ -287,51 +297,44 @@ const Home = () => {
       </div>
       
       {/* Our Partners */}
-      <div className="bg-gradient-to-r from-slate-300 to-gray-100 mb-44 py-28">
+      <div className="bg-gradient-to-r from-slate-300 to-gray-100 mb-44 py-28 px-10 md:px-5" data-aos="fade-up">
           <div className="text-center mb-20">
-            <h2 className="font-poppins text-lg mb-4 font-semibold gradText">
+            <h2 className="font-poppins text-lg mb-4 font-semibold gradText" data-aos="zoom-in">
               Collaborative
             </h2>
             <h2 className="leading-[3.5rem] mb-8 text-5xl font-ubuntu text-blue-950 font-bold">
               Our Partnerships
             </h2>
           </div>
-          <div className="grid md:px-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com1}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com2}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com3}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com4}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com5}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com6}
-              alt=""
-            />
-            <img
-              className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
-              src={com7}
-              alt=""
-            />
+          <div className="grid md:px-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-7xl mx-auto" data-aos="fade-down">
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com1}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com2}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com3}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com4}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com5}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com6}
+                alt=""/>
+              <img
+                className="w-64 shadow-xl transition-shadow duration-300 hover:shadow-none"
+                src={com7}
+                alt=""/>
           </div>
         </div>
     </div>

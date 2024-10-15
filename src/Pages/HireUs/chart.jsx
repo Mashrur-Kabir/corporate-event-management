@@ -1,4 +1,7 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MembershipGrowthChart = () => {
 
@@ -18,6 +21,13 @@ const MembershipGrowthChart = () => {
         { name: 'November', members: 794 },
         { name: currentMonth, members: 963 },
     ];
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,  // Animation duration
+            once: true,  // Only animate once when scrolling
+        });
+    }, []);
 
     return (
         <ResponsiveContainer width="100%" height={400} className={'font-poppins'}>

@@ -23,3 +23,8 @@
 .custom-underline:hover::after {
     transform: scaleX(1);
 }
+
+/* Active underline effect */
+.active-underline::after {
+    transform: scaleX(1); /* Ensure the underline is visible */
+}

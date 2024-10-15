@@ -10,6 +10,9 @@ import { david, alice, sarah } from '../../AssetExport/Assets';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const About = () => {
   // Form submission handler
@@ -29,11 +32,16 @@ const About = () => {
     e.target.reset();
   };
 
+  /* AOS */
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize with 1-second animation duration
+  }, []);
+
   return (
     <div className="about-container py-10">
       {/* About Us Section */}
-      <section className="about-us text-center py-12 font-poppins">
-        <h2 className="text-indigo-950 text-4xl font-bold mb-6 font-ubuntu">About Us</h2>
+      <section className="about-us text-center py-12 font-poppins" data-aos="fade-up">
+        <h2 className="text-indigo-950 text-4xl font-bold mb-6 font-ubuntu" data-aos="zoom-in">About Us</h2>
         <p className="text-lg text-gray-500 mb-8">
             Welcome to our platform! We&apos;re dedicated to bringing the best experience to our users by offering top-notch services and events.
             Not a member yet? Register <Link to="/register" className="hover:underline hover:text-custom-blue inline-flex items-center">
@@ -43,9 +51,11 @@ const About = () => {
       </section>
 
       {/* Achievements Section */}
-      <section className="rounded-md bg-gradient-to-r from-slate-100 to-gray-300 py-20 my-24 font-poppins">
-        <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950">Our Achievements</h2>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center p-12">
+     <section className="rounded-md bg-gradient-to-r from-slate-100 to-gray-300 py-20 my-24 font-poppins" data-aos="fade-up">
+        <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950" data-aos="zoom-in">
+            Our Achievements
+        </h2>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center p-12" data-aos="slide-right">
             <div className="achievement-card p-10 border rounded-lg shadow-md">
                 <img src={innovation} alt="Award 1" className="mx-auto mb-6" />
                 <h3 className="text-xl font-bold py-2">Top Innovator 2024</h3>
@@ -62,11 +72,12 @@ const About = () => {
                 <p className="text-gray-500">Proudly serving over 100,000 users worldwide.</p>
             </div>
         </div>
-      </section>
+     </section>
+
 
     {/* Team Section */}
-    <section className="bg-gradient-to-r from-gray-200 to-pink-100 team-cartoon my-20 py-20 font-poppins">
-        <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950">Our Team</h2>
+    <section className="bg-gradient-to-r from-gray-200 to-pink-100 team-cartoon my-20 py-20 font-poppins" data-aos="fade-up">
+        <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950" data-aos="zoom-in">Our Team</h2>
 
         {/* <!-- Team Introduction Section --> */}
         <div className="cartoon-content text-center mb-12">
@@ -150,7 +161,7 @@ const About = () => {
     </section>
 
       {/* Location Section */}
-      <section className="location py-16">
+      <section className="location py-16" data-aos="zoom-out">
       <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950">Find Us On Map</h2>
         <div className="google-map mx-auto shadow-lg rounded-lg overflow-hidden">
         <LoadScript googleMapsApiKey="AIzaSyCU0ZEZnhsm5zRdK1E5YpCk3tqdmDY7yE0">
@@ -166,24 +177,36 @@ const About = () => {
       </section>
 
       {/* Feedback/contact Section */}
-      <section className="contact-us py-20 bg-gradient-to-r from-fuchsia-100 to-slate-100">
-        <h2 className="text-4xl font-semibold text-center mb-10 font-ubuntu text-indigo-950">Feedback?</h2>
-        <form className="max-w-lg mx-auto" onSubmit={handleSubmit}>
-          <div className="mb-6">
-            <label htmlFor="name" className="block text-xl font-medium text-gray-700 font-poppins">Name</label>
+      <section className="contact-us py-10 sm:py-16 md:py-20 bg-gradient-to-r from-fuchsia-100 to-slate-100" data-aos="fade-up">
+        <h2 className="text-3xl sm:text-4xl font-semibold text-center mb-8 sm:mb-10 font-ubuntu text-indigo-950">
+            Feedback?
+        </h2>
+        <form className="w-full max-w-lg mx-auto px-4 sm:px-0" onSubmit={handleSubmit}>
+            <div className="mb-4 sm:mb-6">
+            <label htmlFor="name" className="block text-lg sm:text-xl font-medium text-gray-700 font-poppins">
+                Name
+            </label>
             <input type="text" id="name" className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required />
-          </div>
-          <div className="mb-6">
-            <label htmlFor="email" className="block text-xl font-medium text-gray-700">Email</label>
+            </div>
+            <div className="mb-4 sm:mb-6">
+            <label htmlFor="email" className="block text-lg sm:text-xl font-medium text-gray-700">
+                Email
+            </label>
             <input type="email" id="email" className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required />
-          </div>
-          <div className="mb-6">
-            <label htmlFor="message" className="block text-xl font-medium text-gray-700">Message</label>
+            </div>
+            <div className="mb-4 sm:mb-6">
+            <label htmlFor="message" className="block text-lg sm:text-xl font-medium text-gray-700">
+                Message
+            </label>
             <textarea id="message" rows="4" className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm" required></textarea>
-          </div>
-          <button type="submit" className="px-6 py-3 text-xl bg-custom-blue text-white rounded-md shadow-md font-ubuntu active:scale-95 transition duration-200">Submit</button>
+            </div>
+            <button type="submit" className="w-full px-4 py-3 text-lg sm:text-xl bg-custom-blue text-white rounded-md shadow-md font-ubuntu active:scale-95 transition duration-200">
+            Submit
+            </button>
         </form>
       </section>
+
+
     </div>
   );
 };

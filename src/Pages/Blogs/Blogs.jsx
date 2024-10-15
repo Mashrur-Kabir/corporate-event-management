@@ -12,7 +12,7 @@ const Blogs = () => {
             <div className="text-center mt-20 mb-16 cursor-pointer">
                 <h2 className="text-4xl font-bold text-blue-950 font-ubuntu custom-underline">Welcome to our Blog Section</h2>
             </div>
-            <div className="max-w-7xl mx-auto grid grid-cols-3">
+            <div className="flex flex-col-reverse max-w-7xl mx-auto md:grid md:grid-cols-3">
                 <div className="col-span-2 p-4">
                     {
                         datas.map(data => <Blog key={data.id} data={data}></Blog> )
