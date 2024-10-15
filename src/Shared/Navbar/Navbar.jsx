@@ -88,7 +88,7 @@ const Navbar = () => {
 
             {/* Compact Dropdown Menu for Smaller Screens */}
             {isOpen && (
-                <div className="absolute top-full right-0 mt-1 bg-indigo-950 rounded-md shadow-lg p-3 w-40 z-30">
+                <div className="absolute top-full right-2.5 -mt-4 bg-indigo-950 rounded-md shadow-lg p-3 w-40 z-30">
                     <div className="font-poppins font-medium flex flex-col items-end space-y-3 text-white">
                         <Link to="/" className={`custom-underline ${isActive('/') ? 'active-underline' : ''}`} onClick={toggleMenu}>Home</Link>
                         <Link to="/about" className={`custom-underline ${isActive('/about') ? 'active-underline' : ''}`} onClick={toggleMenu}>About</Link>

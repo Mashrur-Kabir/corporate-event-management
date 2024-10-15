@@ -188,83 +188,84 @@ const HireUs = () => {
                 isOpen={isModalOpen}
                 onRequestClose={closeModal}
                 contentLabel="Purchase Modal"
-                className="modal-content max-w-lg sm:max-w-md md:max-w-xl mx-auto my-10 p-6 bg-white rounded-lg shadow-lg"
-                overlayClassName="modal-overlay fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-                <div className="flex justify-between items-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-bold font-ubuntu text-blue-950 cursor-pointer custom-underline">
-                        Payment Information
+                className="modal-content w-full max-w-lg sm:max-w-sm md:max-w-md lg:max-w-xl mx-auto my-4 p-4 sm:p-6 bg-white rounded-lg shadow-lg"
+                overlayClassName="modal-overlay fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-2 sm:p-4"
+                >
+                <div className="flex justify-between items-center mb-4 sm:mb-8">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-ubuntu text-blue-950 cursor-pointer custom-underline">
+                    Payment Information
                     </h2>
                     {/* Cancel button to close the modal */}
                     <button
-                        onClick={() => {
-                            closeModal();
-                            reset(); // Reset the form when modal is closed
-                        }}
-                        className="text-custom-pink text-2xl border-2 rounded-full hover:border-custom-pink transition duration-200"
+                    onClick={() => {
+                        closeModal();
+                        reset(); // Reset the form when modal is closed
+                    }}
+                    className="text-custom-pink text-xl sm:text-2xl border-2 rounded-full hover:border-custom-pink transition duration-200"
                     >
-                        <IoCloseSharp />
+                    <IoCloseSharp />
                     </button>
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)} className="font-poppins">
-                    <div className="mb-6">
-                        <label className="block text-gray-700 font-bold mb-2 text-sm md:text-base">
-                            Credit Card Number
-                        </label>
-                        <div className="flex items-center border border-gray-300 rounded-md px-4 py-2 sm:px-3 sm:py-2 md:px-5 md:py-3">
-                            <FaCreditCard className="mr-2 sm:mr-3 text-gray-600 hover:text-blue-600 transition duration-200" />
-                            <input
-                                className="w-full outline-none text-sm md:text-base"
-                                type="text"
-                                placeholder="1234 5678 9012 3456"
-                                {...register('cardNumber', { required: true })}
-                            />
-                        </div>
+                    <div className="mb-4 sm:mb-6">
+                    <label className="block text-gray-700 font-bold mb-1 sm:mb-2 text-sm sm:text-base">
+                        Credit Card Number
+                    </label>
+                    <div className="flex items-center border border-gray-300 rounded-md px-3 py-2 sm:px-4 sm:py-3">
+                        <FaCreditCard className="mr-2 text-gray-600 hover:text-blue-600 transition duration-200" />
+                        <input
+                        className="w-full outline-none text-sm sm:text-base"
+                        type="text"
+                        placeholder="1234 5678 9012 3456"
+                        {...register('cardNumber', { required: true })}
+                        />
+                    </div>
+                    </div>
+                    <div className="mb-4 sm:mb-6">
+                    <label className="block text-gray-700 font-bold mb-1 sm:mb-2 text-sm sm:text-base">
+                        Expiration Date
+                    </label>
+                    <div className="flex items-center border border-gray-300 rounded-md px-3 py-2 sm:px-4 sm:py-3">
+                        <FaCalendarAlt className="mr-2 text-gray-600 hover:text-amber-600 transition duration-200" />
+                        <input
+                        className="w-full outline-none text-sm sm:text-base"
+                        type="text"
+                        placeholder="MM/YY"
+                        {...register('expirationDate', { required: true })}
+                        />
+                    </div>
                     </div>
                     <div className="mb-6">
-                        <label className="block text-gray-700 font-bold mb-2 text-sm md:text-base">
-                            Expiration Date
-                        </label>
-                        <div className="flex items-center border border-gray-300 rounded-md px-4 py-2 sm:px-3 sm:py-2 md:px-5 md:py-3">
-                            <FaCalendarAlt className="mr-2 sm:mr-3 text-gray-600 hover:text-amber-600 transition duration-200" />
-                            <input
-                                className="w-full outline-none text-sm md:text-base"
-                                type="text"
-                                placeholder="MM/YY"
-                                {...register('expirationDate', { required: true })}
-                            />
-                        </div>
+                    <label className="block text-gray-700 font-bold mb-1 sm:mb-2 text-sm sm:text-base">
+                        CVV
+                    </label>
+                    <div className="flex items-center border border-gray-300 rounded-md px-3 py-2 sm:px-4 sm:py-3">
+                        <FaLock className="mr-2 text-gray-600 hover:text-red-600 transition duration-200" />
+                        <input
+                        className="w-full outline-none text-sm sm:text-base"
+                        type="text"
+                        placeholder="123"
+                        {...register('cvv', { required: true })}
+                        />
                     </div>
-                    <div className="mb-10">
-                        <label className="block text-gray-700 font-bold mb-2 text-sm md:text-base">
-                            CVV
-                        </label>
-                        <div className="flex items-center border border-gray-300 rounded-md px-4 py-2 sm:px-3 sm:py-2 md:px-5 md:py-3">
-                            <FaLock className="mr-2 sm:mr-3 text-gray-600 hover:text-red-600 transition duration-200" />
-                            <input
-                                className="w-full outline-none text-sm md:text-base"
-                                type="text"
-                                placeholder="123"
-                                {...register('cvv', { required: true })}
-                            />
-                        </div>
                     </div>
                     <div className="flex justify-end gap-2">
-                        <button
-                            type="button"
-                            onClick={() => {
-                                closeModal();
-                                reset(); // Reset the form when "Cancel" is clicked
-                            }}
-                            className="bg-red-400 text-white py-2 px-5 sm:px-4 sm:py-2 rounded-md font-medium hover:bg-red-600 active:scale-95 transition duration-200"
-                        >
-                            Cancel
-                        </button>
-                        <button
-                            type="submit"
-                            className="bg-green-500 text-white py-2 px-5 sm:px-4 sm:py-2 rounded-md font-medium hover:bg-green-600 active:scale-95 transition duration-200"
-                        >
-                            Confirm
-                        </button>
+                    <button
+                        type="button"
+                        onClick={() => {
+                        closeModal();
+                        reset(); // Reset the form when "Cancel" is clicked
+                        }}
+                        className="bg-red-400 text-white py-2 px-4 sm:px-5 rounded-md font-medium hover:bg-red-600 active:scale-95 transition duration-200"
+                    >
+                        Cancel
+                    </button>
+                    <button
+                        type="submit"
+                        className="bg-green-500 text-white py-2 px-4 sm:px-5 rounded-md font-medium hover:bg-green-600 active:scale-95 transition duration-200"
+                    >
+                        Confirm
+                    </button>
                     </div>
                 </form>
             </Modal>
